@@ -1,4 +1,4 @@
-# Trigger
+# Path
 
 A Front-End [SASS](http://sass-lang.com/) & [Grunt](http://gruntjs.com/) framework. 
 
@@ -21,16 +21,16 @@ Contents
 
 ## WTF?
 
-Trigger is a lightweight front-end SASS that uses [Grunt](http://gruntjs.com/) to automatically combine and minify all of your JavaScript, optimise your images, and run SASS. Trigger comes with [Bourbon](http://bourbon.io/) and [Bourbon Neat](http://neat.bourbon.io/) installed. 
+Path is a lightweight front-end SASS that uses [Grunt](http://gruntjs.com/) to automatically combine and minify all of your JavaScript, optimise your images, and run SASS. Path comes with [Bourbon](http://bourbon.io/) and [Bourbon Neat](http://neat.bourbon.io/) installed. 
 
 
 
 
 ## Installation
 
-Trigger relies heavily on Grunt for a [number of things](#gruntjs). If you haven't used Grunt before, check out the [get started guide](http://gruntjs.com/getting-started). 
+Path relies heavily on Grunt for a [number of things](#gruntjs). If you haven't used Grunt before, check out the [get started guide](http://gruntjs.com/getting-started). 
 
-To install the needed packages, please open Trigger in terminal and type `npm install`. Then running `grunt` in terminal will run [Trigger's defaults plugins](#gruntjs). To optimize your images, run `grunt img` in terminal. 
+To install the needed packages, please open Path in terminal and type `npm install`. Then running `grunt` in terminal will run [Path's defaults plugins](#gruntjs). To optimize your images, run `grunt img` in terminal. 
 
 
 
@@ -38,7 +38,7 @@ To install the needed packages, please open Trigger in terminal and type `npm in
 ## File structure
 
 ```
-Trigger/
+Path/
 │
 ├── development/
 │   ├── css/
@@ -89,9 +89,9 @@ I've added in a lot of regularly used jQuery to scripts.js.
 
 ### Grunt.js
 
-Trigger relays heavily on [Grunt](http://gruntjs.com/) to automate tasks. If you haven't used Grunt before, check out their [get started guide](http://gruntjs.com/getting-started), or [Chris Coyier's article on Grunt](http://24ways.org/2013/grunt-is-not-weird-and-hard/).
+Path relays heavily on [Grunt](http://gruntjs.com/) to automate tasks. If you haven't used Grunt before, check out their [get started guide](http://gruntjs.com/getting-started), or [Chris Coyier's article on Grunt](http://24ways.org/2013/grunt-is-not-weird-and-hard/).
 
-Trigger contains the following Grunt plugins:
+Path contains the following Grunt plugins:
 
 * [Concat](https://github.com/gruntjs/grunt-contrib-concat) - combines `scripts.js`, and all JS files inside of `/libs/`
 * [Uglify](https://github.com/gruntjs/grunt-contrib-uglify) - minifies the combined JS file from above
@@ -104,7 +104,7 @@ Trigger contains the following Grunt plugins:
 
 ## SASS (SCSS)
 
-Trigger uses [SASS](http://sass-lang.com/) for all of it's style sheets. SASS is run and minified using [Grunt's SASS plug-in](https://github.com/gruntjs/grunt-contrib-sass). 
+Path uses [SASS](http://sass-lang.com/) for all of it's style sheets. SASS is run and minified using [Grunt's SASS plug-in](https://github.com/gruntjs/grunt-contrib-sass). 
 
 Because SASS allows you to import multiple files without worrying about additional requests I have separated out a lot of the style sheets from `base.scss` for ease of maintenance. Here are some of the main SASS files, and what they do. 
 
@@ -121,7 +121,7 @@ Because SASS allows you to import multiple files without worrying about addition
 
 ### Bourbon Neat
 
-[Bourbon Neat](http://neat.bourbon.io/) is an extension of [Bourbon](http://bourbon.io/) for semantic grid layouts. Trigger's grid settings can be found in `assets/development/css/_grid-settings.scss`. They can then be called by using Neat's mixins, eg:
+[Bourbon Neat](http://neat.bourbon.io/) is an extension of [Bourbon](http://bourbon.io/) for semantic grid layouts. Path's grid settings can be found in `assets/development/css/_grid-settings.scss`. They can then be called by using Neat's mixins, eg:
 
 ```
 article {
@@ -151,7 +151,7 @@ This is (and probably always will be) a work in progress. Here are some features
 
 ## Feedback
 
-If you have any ideas on how to improve this project please give me a shout on Twitter - [@john_devlin](https://twitter.com/john_devlin).
+All credits to [@john_devlin](https://twitter.com/john_devlin) for his awesome work on Trigger which is the foundation on which Path is built.
 
 
 
