@@ -2,13 +2,13 @@
 
 A Front-End [SASS](http://sass-lang.com/) & [Grunt](http://gruntjs.com/) framework. 
 
-#### Version: 0.6 <br/> Status: Stable
+#### Version: 0.1 <br/> Status: Stable
 
 
 Contents
 --------
 
-1. [WTF?](#wtf)
+1. [About](#about)
 2. [Installation](#installation)
 3. [File structure](#file-structure)
 4. [JavaScript](#javascript)
@@ -19,7 +19,7 @@ Contents
 
 
 
-## WTF?
+## About?
 
 Path is a lightweight front-end SASS that uses [Grunt](http://gruntjs.com/) to automatically combine and minify all of your JavaScript, optimise your images, and run SASS. Path comes with [Bourbon](http://bourbon.io/) and [Bourbon Neat](http://neat.bourbon.io/) installed. 
 
@@ -144,8 +144,8 @@ aside {
 
 This is (and probably always will be) a work in progress. Here are some features I'll be adding in.
 
-* [ ] Bower
-* [ ] Add Windows 8 icon
+* [ ] 
+* [ ]
 
 
 
