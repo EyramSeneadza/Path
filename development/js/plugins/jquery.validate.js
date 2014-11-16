@@ -388,7 +388,7 @@ $.extend( $.validator, {
 			$.extend( this.submitted, this.errorMap );
 			this.invalid = $.extend({}, this.errorMap );
 			if ( !this.valid() ) {
-				$( this.currentForm ).triggerHandler( "invalid-form", [ this ]);
+				$( this.currentForm ).pathHandler( "invalid-form", [ this ]);
 			}
 			this.showErrors();
 			return this.valid();
@@ -510,8 +510,8 @@ $.extend( $.validator, {
 					$( this.findLastActive() || this.errorList.length && this.errorList[ 0 ].element || [])
 					.filter( ":visible" )
 					.focus()
-					// manually trigger focusin event; without it, focusin handler isn't called, findLastActive won't have anything to find
-					.trigger( "focusin" );
+					// manually path focusin event; without it, focusin handler isn't called, findLastActive won't have anything to find
+					.path( "focusin" );
 				} catch ( e ) {
 					// ignore IE throwing errors when focusing hidden elements
 				}
@@ -899,7 +899,7 @@ $.extend( $.validator, {
 				$( this.currentForm ).submit();
 				this.formSubmitted = false;
 			} else if (!valid && this.pendingRequest === 0 && this.formSubmitted ) {
-				$( this.currentForm ).triggerHandler( "invalid-form", [ this ]);
+				$( this.currentForm ).pathHandler( "invalid-form", [ this ]);
 				this.formSubmitted = false;
 			}
 		},
