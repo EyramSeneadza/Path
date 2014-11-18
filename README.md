@@ -30,7 +30,7 @@ Path is a lightweight front-end SASS that uses [Grunt](http://gruntjs.com/) to a
 
 Path relies heavily on Grunt for a [number of things](#gruntjs). If you haven't used Grunt before, check out the [get started guide](http://gruntjs.com/getting-started). 
 
-To install the needed packages, please open Path in terminal and type `npm install`. Then running `grunt` in terminal will run [Path's defaults plugins](#gruntjs). To optimize your images, run `grunt img` in terminal. 
+To install the needed packages, please open Path in terminal and type `npm install`. Then running `grunt` in terminal will run [Path's default plugins](#gruntjs). To optimize your images, run `grunt img` in terminal. 
 
 
 
@@ -89,7 +89,7 @@ I've added in a lot of regularly used jQuery to scripts.js.
 
 ### Grunt.js
 
-Path relays heavily on [Grunt](http://gruntjs.com/) to automate tasks. If you haven't used Grunt before, check out their [get started guide](http://gruntjs.com/getting-started), or [Chris Coyier's article on Grunt](http://24ways.org/2013/grunt-is-not-weird-and-hard/).
+Path relies heavily on [Grunt](http://gruntjs.com/) to automate tasks. If you haven't used Grunt before, check out their [get started guide](http://gruntjs.com/getting-started), or [Chris Coyier's article on Grunt](http://24ways.org/2013/grunt-is-not-weird-and-hard/).
 
 Path contains the following Grunt plugins:
 
@@ -151,7 +151,7 @@ This is (and probably always will be) a work in progress. Here are some features
 
 ## Feedback
 
-All credits to [@john_devlin](https://twitter.com/john_devlin) for his awesome work on Trigger which is the foundation on which Path is built.
+All credits to [@john_devlin](https://twitter.com/john_devlin) for his awesome work on path which is the foundation on which Path is built.
 
 
 

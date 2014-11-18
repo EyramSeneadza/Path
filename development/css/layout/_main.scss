@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	color: $body-colour;
+	color: $white;
 	font-size: 1em;
 	line-height: 1;
 	margin: 0;
@@ -26,7 +26,16 @@ a {
 }
 
 div.main-wrapper {
-	padding: 0 $container-padding;
+	padding: 0;
+
+	logo {
+		@include span-columns(3);
+	}
+
+	nav {
+		@include shift(1);
+		@include span-columns(8);
+	}
 
 	article {
 		@include span-columns(8);
@@ -41,4 +50,5 @@ div.main-wrapper {
 hr {
 	margin: 1em 0; 
 }
+
 

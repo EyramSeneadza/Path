@@ -1,10 +1,13 @@
 
 header {
-	padding: 50px $container-padding 0;
+	padding: 30px $container-padding 0;
+	background: $red;
+	padding-bottom: 10px;
 
 	h1 {
 		margin: 0; 
 		text-transform: uppercase;
+		color: $white;
 	}
 
 	.intro {
@@ -15,14 +18,14 @@ header {
 	}
 
 	.logo a {
-		color: $heading-colour;
+		color: $white;
 		display: block;
 		height: 0px;
 		width: 0px;
 	}
 
 	nav {
-		padding-top: 20px;
+		padding-top: 40px;
 	}
 
 }
